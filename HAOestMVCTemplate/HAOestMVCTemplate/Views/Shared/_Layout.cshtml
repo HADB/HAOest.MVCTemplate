@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-
+    <link href="~/Resources/ThirdParty/Bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Resources/ThirdParty/FontAwesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    @RenderSection("Styles", required: false)
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -38,8 +38,8 @@
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    <script src="~/Resources/ThirdParty/jQuery/2.1.1/jquery-2.1.1.min.js"></script>
+    <script src="~/Resources/ThirdParty/Bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

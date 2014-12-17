@@ -171,26 +171,32 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\css\bootstrap-theme.css" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\css\bootstrap-theme.min.css" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\css\bootstrap.css" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\css\bootstrap.min.css" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\js\bootstrap.js" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\js\bootstrap.min.js" />
+    <Content Include="Resources\ThirdParty\FontAwesome\4.2.0\css\font-awesome.css" />
+    <Content Include="Resources\ThirdParty\FontAwesome\4.2.0\css\font-awesome.min.css" />
+    <Content Include="Resources\ThirdParty\FontAwesome\4.2.0\fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\ThirdParty\jQuery\2.1.1\jquery-2.1.1.intellisense.js" />
+    <Content Include="Resources\ThirdParty\jQuery\2.1.1\jquery-2.1.1.js" />
+    <Content Include="Resources\ThirdParty\jQuery\2.1.1\jquery-2.1.1.min.js" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\css\bootstrap-theme.css.map" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\css\bootstrap.css.map" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Resources\ThirdParty\Bootstrap\3.3.1\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Resources\ThirdParty\FontAwesome\4.2.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Resources\ThirdParty\FontAwesome\4.2.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Resources\ThirdParty\FontAwesome\4.2.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Resources\ThirdParty\FontAwesome\4.2.0\fonts\FontAwesome.otf" />
+    <Content Include="Resources\ThirdParty\jQuery\2.1.1\jquery-2.1.1.min.map" />
+    <Content Include="Resources\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -205,7 +211,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -229,13 +234,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Resources\Local\css\" />
+    <Folder Include="Resources\Local\img\" />
+    <Folder Include="Resources\Local\js\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
